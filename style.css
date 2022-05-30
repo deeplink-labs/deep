@@ -1,0 +1,371 @@
+html, body {
+    overflow-x: hidden !important;
+}
+body {
+	font-family: 'Helvetica', sans-serif;
+}
+nav ul {
+    display: flex;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    font-size: 16px;
+}
+nav ul li a {
+    color: #000;
+    font-weight: 300;
+}
+.container-fluid.header {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.banner h1 {
+    font-size: 120px;
+    font-family: 'Helvetica';
+    font-weight: 900;
+    color: #000;
+}
+.banner p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #3C53F4;
+    font-size: 30px;
+}
+.btn {
+    background: #3C53F4;
+    border-radius: 50px;
+    padding: 7px 20px;
+    transition: 0.5s;
+    color: #fff !important;
+}
+a.nav-item.nav-link {
+    padding: 5px 25px !important;
+}
+li.btn  a {
+    color: #ffffff;
+}
+li.btn:hover {
+    background: #1a2cf3;
+    transition: 0.5s;
+}
+.container.banner {
+    min-height: 925px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.sectiontwo {
+    background-color: #fdfff8;
+
+}
+.sectionfive {
+    background-color: #fffdf9;
+}
+
+.sectiontwo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 70px;
+    text-align: center;
+}
+.sectiontwo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #3C53F4;
+    font-size: 24px;
+}
+.sectiontwo p {
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    color: #000;
+}
+.sectiontwo span {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+.sectionthree, .sectionfour, .roadmap {
+    background-color: #1c1e28;
+
+}
+.sectionthree h1, .sectionfour h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+.roadmap h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 70px;
+}
+.sectionthree .subhead, .sectionfour .subhead {
+    font-size: 16px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+.sectionthree h2, .sectionfour h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #3C53F4;
+    font-size: 30px;
+}
+.sectionthree p, .sectionthree li, .sectionfour p, .sectionfour li {
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    color: #fff;
+}
+.sectionthree img, .sectionfour img {
+    filter: brightness(0) invert(1);
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    justify-content: end;
+}
+div#navbarNavAltMarkup {
+    justify-content: end;
+}
+.sectionfive h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #141414;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.sectionfive h2 {
+    font-size: 20px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+    color: #000;
+}
+.ma4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blue {
+    color: #3C53F4 !important;
+}
+.subarea {
+    font-size: 26px;
+    font-weight: 300;
+}
+ul.blue {
+    padding: 0;
+}
+ul.blue li {
+    list-style: none;
+}
+.roadmap {
+    color: #fff;
+    padding: 150px !important;
+}
+.roadmap h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.roadmap h1:after {
+    content: "";
+    width: 97%;
+    height: 1px;
+    background: #3C53F4;
+    display: block;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 5%;
+}
+.sectionfive.care {
+    background: #fff;
+    padding: 100px 0 !important;
+}
+.sectionfive, .sectiontwo {
+    padding: 100px 0 !important;
+}
+.sectionfive.care .row {
+    display: flex;
+    align-items: center;
+}
+footer {
+    background: #1c1e28;
+    color: #fff;
+    padding: 50px 0;
+}
+footer h3 {
+    font-size: 20px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+footer ul span {
+    padding: 0 10px;
+}
+footer li {
+    list-style: none;
+    padding: 0;
+}
+footer li {
+    list-style: none;
+    padding: 0;
+    margin: 10px 10px 10px  0;
+}
+footer li a {
+    color: #ffffff;
+}
+footer ul.fa-ul {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.farea {
+    margin: 20px 0;
+}
+footer p {
+    font-size: 12px;
+}
+footer ul.fa-ul li {
+    margin-right: 15px;
+}
+.sectiontwo, .sectionthree, .sectionfive, .roadmap {
+    padding: 100px 0 0 0;
+}
+.sectiontwo h1{
+    margin-bottom: 100px;
+}
+.subsec {
+    padding: 50px 0;
+}
+.row.spacing {
+    padding-top: 100px;
+}
+@media screen and (min-width: 1200px) {
+.container {
+    width: 1280px;
+}
+
+.row.subsec {
+    display: flex;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width:1400px) {
+    h1 {
+        font-size: 10vw !important;
+    }
+    .banner p {
+        font-size: 4vw !important;
+        line-height: unset;
+    }
+    br {
+        display: none;
+    }
+    .container.banner {
+        min-height: 85vw;
+    }
+    h2 {
+        font-size: 5vw !important;
+    }
+    p, ul,li {
+        font-size: 3vw !important;
+    }
+    .sectionfive.care .row {
+        flex-flow: column;
+    }
+    .roadmap {
+        padding: 150px 0 !important;
+    }
+    .mobhide {
+        display: none;
+    }
+    .sectiontwo {
+        text-align: center;
+    }
+    .sectiontwo img {
+        width: 50%;
+    }
+    .sectionthree img, .sectionfour img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navbar-collapse.collapse.in {
+        display: block;
+    }
+    .navbar-nav {
+        width: 100%;
+        display: block;
+        background: #000000bd;
+        padding: 50px;
+        font-size: 32px;
+        font-family: 'Helvetica';
+        font-weight: 300;
+        margin-top: 2vw;
+    }
+    .navbar-nav a.nav-item.nav-link {
+        color: #fff;
+    }
+    .navi {
+        position: absolute !important;
+        z-index: 9;
+    }
+}
+@media screen and (max-width:780px) {
+    .sectionfive {
+        text-align: center !important;
+    }
+    .roadmap h1:after {
+        display:none;
+    }
+    .roadmap {
+        text-align: center;
+    }
+    .sectionfive, .sectiontwo {
+        padding: 50px 0 !important;
+    }
+    .roadmap {
+        padding: 50px 0 !important;
+    }
+    .sectionfive.care {
+        padding: 50px 0 !important;
+    }
+    footer {
+        background: #1c1e28;
+        color: #fff;
+        padding: 50px 0;
+        text-align: center;
+    }
+    footer ul {
+        justify-content: center;
+    }
+    .sectiontwo h1 {
+        margin: 0;
+    }
+    h1 {
+        font-size: 5vw !important;
+        margin: 50px 0 !important;
+    }
+}
