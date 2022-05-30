@@ -40,6 +40,7 @@ nav ul li a {
     color: #3C53F4;
     font-size: 30px;
 }
+
 .btn {
     background: #3C53F4;
     border-radius: 50px;
@@ -47,8 +48,14 @@ nav ul li a {
     transition: 0.5s;
     color: #fff !important;
 }
+a.nav-item.nav-link.btn {
+    padding: 5px 20px !important;
+}
 a.nav-item.nav-link {
-    padding: 5px 25px !important;
+    padding: 5px 35px !important;
+}
+.navbar-nav .btn {
+    margin: 0 0 0 25px !important;
 }
 li.btn  a {
     color: #ffffff;
@@ -58,7 +65,7 @@ li.btn:hover {
     transition: 0.5s;
 }
 .container.banner {
-    min-height: 925px;
+    min-height: 750px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -179,6 +186,7 @@ ul.blue li {
 }
 .roadmap h2 {
     font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
 }
 .roadmap h1:after {
     content: "";
@@ -190,7 +198,7 @@ ul.blue li {
     bottom: -9px;
     left: 50%;
     transform: translate(-50%, -50%);
-    right: 5%;
+    top: 35%;
 }
 .sectionfive.care {
     background: #fff;
@@ -274,7 +282,8 @@ footer ul.fa-ul li {
 
 @media screen and (max-width:1400px) {
     h1 {
-        font-size: 10vw !important;
+        font-size: 7vw !important;
+        margin: 5% 0 10% !important;
     }
     .banner p {
         font-size: 4vw !important;
@@ -287,7 +296,7 @@ footer ul.fa-ul li {
         min-height: 85vw;
     }
     h2 {
-        font-size: 5vw !important;
+        font-size: 4vw !important;
     }
     p, ul,li {
         font-size: 3vw !important;
@@ -304,11 +313,24 @@ footer ul.fa-ul li {
     .sectiontwo {
         text-align: center;
     }
-    .sectiontwo img {
-        width: 50%;
-    }
+
     .sectionthree img, .sectionfour img {
         width: 100%;
+    }
+    .roadmap h1:after {
+        top: 25%;
+    }
+  
+}
+@media screen and (max-width:1285px) {
+    .container {
+        max-width: 80%;
+    }
+    .roadmap h1:after {
+        top: 60%;
+        transform: rotateZ(90deg);
+        left: -55%;
+        height: 5px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -318,7 +340,7 @@ footer ul.fa-ul li {
     .navbar-nav {
         width: 100%;
         display: block;
-        background: #000000bd;
+        background: #000000;
         padding: 50px;
         font-size: 32px;
         font-family: 'Helvetica';
@@ -356,7 +378,7 @@ footer ul.fa-ul li {
         background: #1c1e28;
         color: #fff;
         padding: 50px 0;
-        text-align: center;
+        text-align: left;
     }
     footer ul {
         justify-content: center;
@@ -365,7 +387,48 @@ footer ul.fa-ul li {
         margin: 0;
     }
     h1 {
-        font-size: 5vw !important;
-        margin: 50px 0 !important;
+        font-size: 9vw !important;
+        margin: 10% 0 !important;
+        line-height: 9vw;
+    }
+    .banner {
+        text-align: center;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .roadmap h2, .roadmap p {
+        text-align: left;
+    }
+ footer img {
+        margin-bottom: 30px;
+    }
+    .sectionfive h2 {
+        margin: 25px 0;
+    }
+    h2 {
+        margin: 5% 0;
+    }
+    .roadmap h1:after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #3C53F4;
+        display: block;
+        position: absolute;
+        transform: rotateZ(90deg);
+        left: -45vw;
+        top: 54%;
+    }
+   
+}
+@media screen and (max-width:500px) {
+    .sectiontwo img {
+        width: 100%;
+    }
+    .roadmap h1:after {
+        top: 58%;
+        width: 130% !important;
+        left: -56vw;
     }
 }
