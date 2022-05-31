@@ -268,6 +268,19 @@ footer ul.fa-ul li {
 .row.spacing {
     padding-top: 100px;
 }
+.bg-video {
+    position: absolute;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+}
+video.bg-video__content {
+    object-fit: cover !important;
+    width: 602px;
+    height: 560px;
+}
 @media screen and (min-width: 1200px) {
 .container {
     width: 1280px;
@@ -331,6 +344,9 @@ footer ul.fa-ul li {
         transform: rotateZ(90deg);
         left: -55%;
         height: 5px;
+    }
+    .bg-video {
+        width: 88%;
     }
 }
 @media screen and (max-width: 992px) {
@@ -430,5 +446,16 @@ footer ul.fa-ul li {
         top: 58%;
         width: 130% !important;
         left: -56vw;
+    }
+    .bg-video {
+        top: 68px;
+        width: unset;
+        height: unset;
+    }
+    video.bg-video__content {
+       
+        width: 310px;
+        height: auto;
+        overflow-x: hidden !important;
     }
 }
